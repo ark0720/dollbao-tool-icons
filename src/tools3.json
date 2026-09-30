@@ -1,0 +1,186 @@
+{
+  "BRAND": "#63ccca",
+  "DIV": {
+    "div1": {
+      "name": "Div1 建立處・管理處",
+      "color": "#5C6B76",
+      "zh": "石墨藍"
+    },
+    "div2a": {
+      "name": "Div2A 行銷處・數位/官網",
+      "color": "#B85C7A",
+      "zh": "莓果"
+    },
+    "div2b": {
+      "name": "Div2B 行銷處・專櫃",
+      "color": "#CF6F5A",
+      "zh": "陶土"
+    },
+    "div3": {
+      "name": "Div3 財務處",
+      "color": "#4E8B62",
+      "zh": "松綠"
+    },
+    "div4": {
+      "name": "Div4 生產處・訂單/採購/庫存",
+      "color": "#AD8149",
+      "zh": "蜂蜜金"
+    },
+    "div6": {
+      "name": "Div6 公共關係處・社群",
+      "color": "#8E7CB8",
+      "zh": "藕紫"
+    },
+    "div7": {
+      "name": "Div7 主管處・經企/數據",
+      "color": "#3F9C98",
+      "zh": "薄荷（企業色系）"
+    }
+  },
+  "TOOLS": [
+    {
+      "id": "dolly-funds",
+      "title": "Dolly助手｜資金分配",
+      "div": "div3",
+      "glyph": "coin_split",
+      "label": "資金",
+      "status": "live"
+    },
+    {
+      "id": "counter-portal",
+      "title": "專櫃報表 Portal",
+      "div": "div2b",
+      "glyph": "bars",
+      "label": "報表",
+      "status": "live"
+    },
+    {
+      "id": "counter-ops",
+      "title": "Div2B 專櫃櫃務小幫手",
+      "div": "div2b",
+      "glyph": "clipboard_check",
+      "label": "櫃務",
+      "status": "live"
+    },
+    {
+      "id": "hpa-warroom",
+      "title": "HPA 戰情中心",
+      "div": "div7",
+      "glyph": "radar",
+      "label": "HPA",
+      "status": "live"
+    },
+    {
+      "id": "b2b-dealer",
+      "title": "逗寶 B2B 經銷商流程",
+      "div": "div4",
+      "glyph": "exchange",
+      "label": "B2B",
+      "status": "live"
+    },
+    {
+      "id": "inventory",
+      "title": "庫存速查與員購小幫手",
+      "div": "div4",
+      "glyph": "box_search",
+      "label": "庫存",
+      "status": "live"
+    },
+    {
+      "id": "div1-helper",
+      "title": "Div1 管理處小幫手",
+      "div": "div1",
+      "glyph": "briefcase",
+      "label": "Div1",
+      "status": "live"
+    },
+    {
+      "id": "div6-monitor",
+      "title": "Div6 私群監測",
+      "div": "div6",
+      "glyph": "bubble_pulse",
+      "label": "私群",
+      "status": "live"
+    },
+    {
+      "id": "ry27-target",
+      "title": "RY27 業績目標 SoT",
+      "div": "div7",
+      "glyph": "flag",
+      "label": "RY27",
+      "status": "live"
+    },
+    {
+      "id": "bi-datacenter",
+      "title": "MyPowerBI 數據中心",
+      "div": "div7",
+      "glyph": "database",
+      "label": "BI",
+      "status": "live"
+    },
+    {
+      "id": "budget-check",
+      "title": "預算監測報表 Portal",
+      "div": "div3",
+      "glyph": "calendar_check",
+      "label": "預算",
+      "status": "live"
+    },
+    {
+      "id": "product-sot",
+      "title": "SoT 產品資料中心",
+      "div": "div7",
+      "glyph": "tag_barcode",
+      "label": "產品",
+      "status": "wip"
+    },
+    {
+      "id": "counter-promo",
+      "title": "Div2B 專櫃促銷活動管理",
+      "div": "div2b",
+      "glyph": "megaphone",
+      "label": "促銷",
+      "status": "wip"
+    },
+    {
+      "id": "order-auto",
+      "title": "Div4 訂單自動處理小幫手",
+      "div": "div4",
+      "glyph": "order_gear",
+      "label": "訂單",
+      "status": "wip"
+    },
+    {
+      "id": "receipts",
+      "title": "Div3 總收款報表",
+      "div": "div3",
+      "glyph": "receipt_cash",
+      "label": "收款",
+      "status": "wip"
+    },
+    {
+      "id": "utm",
+      "title": "Div2A UTM 分析",
+      "div": "div2a",
+      "glyph": "link",
+      "label": "UTM",
+      "status": "wip"
+    },
+    {
+      "id": "ads-traffic",
+      "title": "官網廣告成效與流量分析",
+      "div": "div2a",
+      "glyph": "trend",
+      "label": "廣告",
+      "status": "wip"
+    },
+    {
+      "id": "im-hub",
+      "title": "Div2B 即時通訊整合",
+      "div": "div2b",
+      "glyph": "chat_link",
+      "label": "通訊",
+      "status": "wip"
+    }
+  ]
+}
