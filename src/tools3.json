@@ -120,10 +120,18 @@
     },
     {
       "id": "budget-check",
-      "title": "預算監測報表 Portal",
+      "title": "Div3 每月預算核對小幫手",
       "div": "div3",
       "glyph": "calendar_check",
       "label": "預算",
+      "status": "live"
+    },
+    {
+      "id": "budget-variance",
+      "title": "Div3 各部門預算差異小幫手",
+      "div": "div3",
+      "glyph": "delta_bars",
+      "label": "差異",
       "status": "live"
     },
     {

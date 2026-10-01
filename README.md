@@ -31,6 +31,7 @@
 | ry27-target | RY27 業績目標 SoT | Div7 | RY27 |
 | bi-datacenter | MyPowerBI 數據中心 | Div7 | BI |
 | budget-check | Div3 每月預算核對小幫手 | Div3 | 預算 |
+| budget-variance | Div3 各部門預算差異小幫手 | Div3 | 差異 |
 | product-sot | SoT 產品資料中心（開發中） | Div7 | 產品 |
 | counter-promo | Div2B 專櫃促銷活動管理（開發中） | Div2B | 促銷 |
 | order-auto | Div4 訂單自動處理小幫手（開發中） | Div4 | 訂單 |

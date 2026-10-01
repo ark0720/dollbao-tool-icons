@@ -106,6 +106,13 @@ const GLYPH = {
     <path d="M-92,-26 h184" stroke-width="12" ${O}/>
     <line x1="-46" y1="-96" x2="-46" y2="-50" stroke-width="16" ${O}/><line x1="46" y1="-96" x2="46" y2="-50" stroke-width="16" ${O}/>
     <polyline points="-40,26 -12,54 44,-6" stroke-width="22" ${A}/>`,
+  delta_bars: (S, T, O, A, ac) => `
+    <rect x="-96" y="-30" width="54" height="118" rx="10" fill="#fff" fill-opacity=".45"/>
+    <rect x="-26" y="-84" width="54" height="172" rx="10" fill="#fff"/>
+    <line x1="-69" y1="-30" x2="1" y2="-84" stroke-width="10" ${O} stroke-dasharray="2 16"/>
+    <line x1="68" y1="-84" x2="68" y2="-30" stroke-width="16" ${A}/>
+    <polyline points="46,-62 68,-84 90,-62" stroke-width="16" ${A}/>
+    <polyline points="46,-52 68,-30 90,-52" stroke-width="16" ${A}/>`,
   chat_link: (S, T, O, A, ac) => `
     <path d="M-96,-56 a24,24 0 0 1 24,-24 h96 a24,24 0 0 1 24,24 v52 a24,24 0 0 1 -24,24 h-70 l-30,26 v-26 a24,24 0 0 1 -20,-24 z" fill="#fff" fill-opacity=".4"/>
     <path d="M-30,-6 a24,24 0 0 1 24,-24 h96 a24,24 0 0 1 24,24 v52 a24,24 0 0 1 -24,24 h-20 v26 l-30,-26 h-46 a24,24 0 0 1 -24,-24 z" ${S}/>
@@ -124,6 +131,7 @@ const TOOLS = [
   { id: 'ry27-target',     title: 'RY27 業績目標 SoT',      div: 'div7',  glyph: 'flag',            label: 'RY27', status: 'live' },
   { id: 'bi-datacenter',   title: 'MyPowerBI 數據中心',     div: 'div7',  glyph: 'database',        label: 'BI',   status: 'live' },
   { id: 'budget-check',    title: 'Div3 每月預算核對小幫手', div: 'div3',  glyph: 'calendar_check',  label: '預算', status: 'live' },
+  { id: 'budget-variance',  title: 'Div3 各部門預算差異小幫手', div: 'div3', glyph: 'delta_bars',     label: '差異', status: 'live' },
   { id: 'product-sot',     title: 'SoT 產品資料中心',       div: 'div7',  glyph: 'tag_barcode',     label: '產品', status: 'wip' },
   { id: 'counter-promo',   title: 'Div2B 專櫃促銷活動管理', div: 'div2b', glyph: 'megaphone',       label: '促銷', status: 'wip' },
   { id: 'order-auto',      title: 'Div4 訂單自動處理小幫手', div: 'div4', glyph: 'order_gear',      label: '訂單', status: 'wip' },
