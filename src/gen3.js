@@ -53,6 +53,15 @@ const GLYPH = {
     <polygon points="-98,-48 -20,-4 -20,84 -98,40" fill="#fff" fill-opacity=".62"/>
     <polygon points="-20,-4 58,-48 58,40 -20,84" fill="#fff" fill-opacity=".38"/>
     <circle cx="78" cy="62" r="32" stroke-width="16" ${A}/><line x1="102" y1="86" x2="128" y2="112" stroke-width="20" ${A}/></g>`,
+  box_table: (S, T, O, A) => `
+    <g transform="translate(-22,-8)">
+    <polygon points="-20,-92 58,-48 -20,-4 -98,-48" ${S}/>
+    <polygon points="-98,-48 -20,-4 -20,84 -98,40" fill="#fff" fill-opacity=".62"/>
+    <polygon points="-20,-4 58,-48 58,40 -20,84" fill="#fff" fill-opacity=".38"/></g>
+    <g transform="translate(34,28)">
+    <rect x="0" y="0" width="96" height="78" rx="12" ${S}/>
+    <line x1="10" y1="27" x2="86" y2="27" stroke-width="8" ${A}/><line x1="10" y1="52" x2="86" y2="52" stroke-width="8" ${A}/>
+    <line x1="36" y1="8" x2="36" y2="70" stroke-width="8" ${A}/><line x1="64" y1="8" x2="64" y2="70" stroke-width="8" ${A}/></g>`,
   briefcase: (S, T, O, A, ac) => `
     <rect x="-104" y="-42" width="208" height="132" rx="22" ${T}/><rect x="-104" y="-42" width="208" height="132" rx="22" stroke-width="13" ${O}/>
     <path d="M-42,-42 v-22 a18,18 0 0 1 18,-18 h48 a18,18 0 0 1 18,18 v22" stroke-width="16" ${O}/>
@@ -138,6 +147,7 @@ const TOOLS = [
   { id: 'receipts',        title: 'Div3 總收款報表',        div: 'div3',  glyph: 'receipt_cash',    label: '收款', status: 'wip' },
   { id: 'utm',             title: 'Div2A UTM 分析',         div: 'div2a', glyph: 'link',            label: 'UTM',  status: 'wip' },
   { id: 'ads-traffic',     title: '官網廣告成效與流量分析', div: 'div2a', glyph: 'trend',           label: '廣告', status: 'wip' },
+  { id: 'inventory-report', title: 'Div4 庫存報表小幫手',    div: 'div4',  glyph: 'box_table',       label: '庫報', status: 'live' },
   { id: 'im-hub',          title: 'Div2B 即時通訊整合',     div: 'div2b', glyph: 'chat_link',       label: '通訊', status: 'wip' },
 ];
 

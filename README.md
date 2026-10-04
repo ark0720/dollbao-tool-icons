@@ -26,6 +26,7 @@
 | hpa-warroom | HPA 戰情中心 | Div7 | HPA |
 | b2b-dealer | 逗寶 B2B 經銷商流程 | Div4 | B2B |
 | inventory | 庫存速查與員購小幫手 | Div4 | 庫存 |
+| inventory-report | Div4 庫存報表小幫手 | Div4 | 庫報 |
 | div1-helper | Div1 管理處小幫手 | Div1 | Div1 |
 | div6-monitor | Div6 私群監測 | Div6 | 私群 |
 | ry27-target | RY27 業績目標 SoT | Div7 | RY27 |
