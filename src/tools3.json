@@ -183,11 +183,27 @@
       "status": "wip"
     },
     {
+      "id": "inventory-report",
+      "title": "Div4 庫存報表小幫手",
+      "div": "div4",
+      "glyph": "box_table",
+      "label": "庫報",
+      "status": "live"
+    },
+    {
       "id": "im-hub",
       "title": "Div2B 即時通訊整合",
       "div": "div2b",
       "glyph": "chat_link",
       "label": "通訊",
+      "status": "wip"
+    },
+    {
+      "id": "parcel-post",
+      "title": "Div4 物流包裹與郵局寄件小幫手",
+      "div": "div4",
+      "glyph": "parcel_label",
+      "label": "包裹",
       "status": "wip"
     }
   ]

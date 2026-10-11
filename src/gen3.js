@@ -62,6 +62,17 @@ const GLYPH = {
     <rect x="0" y="0" width="96" height="78" rx="12" ${S}/>
     <line x1="10" y1="27" x2="86" y2="27" stroke-width="8" ${A}/><line x1="10" y1="52" x2="86" y2="52" stroke-width="8" ${A}/>
     <line x1="36" y1="8" x2="36" y2="70" stroke-width="8" ${A}/><line x1="64" y1="8" x2="64" y2="70" stroke-width="8" ${A}/></g>`,
+  parcel_label: (S, T, O, A, ac) => `
+    <g transform="translate(-12,6)">
+    <polygon points="-20,-96 62,-50 -20,-4 -102,-50" ${S}/>
+    <polygon points="-102,-50 -20,-4 -20,88 -102,42" fill="#fff" fill-opacity=".62"/>
+    <polygon points="-20,-4 62,-50 62,42 -20,88" fill="#fff" fill-opacity=".38"/>
+    <line x1="-61" y1="-73" x2="21" y2="-27" stroke-width="9" ${A} stroke-opacity=".9"/></g>
+    <g transform="translate(38,30)">
+    <rect x="0" y="0" width="94" height="74" rx="10" ${S}/>
+    <line x1="14" y1="20" x2="80" y2="20" stroke-width="8" ${A}/>
+    <line x1="14" y1="39" x2="62" y2="39" stroke-width="8" stroke="${ac}" stroke-opacity=".7" stroke-linecap="round"/>
+    <line x1="14" y1="58" x2="72" y2="58" stroke-width="8" stroke="${ac}" stroke-opacity=".7" stroke-linecap="round"/></g>`,
   briefcase: (S, T, O, A, ac) => `
     <rect x="-104" y="-42" width="208" height="132" rx="22" ${T}/><rect x="-104" y="-42" width="208" height="132" rx="22" stroke-width="13" ${O}/>
     <path d="M-42,-42 v-22 a18,18 0 0 1 18,-18 h48 a18,18 0 0 1 18,18 v22" stroke-width="16" ${O}/>
@@ -149,6 +160,7 @@ const TOOLS = [
   { id: 'ads-traffic',     title: '官網廣告成效與流量分析', div: 'div2a', glyph: 'trend',           label: '廣告', status: 'wip' },
   { id: 'inventory-report', title: 'Div4 庫存報表小幫手',    div: 'div4',  glyph: 'box_table',       label: '庫報', status: 'live' },
   { id: 'im-hub',          title: 'Div2B 即時通訊整合',     div: 'div2b', glyph: 'chat_link',       label: '通訊', status: 'wip' },
+  { id: 'parcel-post',     title: 'Div4 物流包裹與郵局寄件小幫手', div: 'div4', glyph: 'parcel_label',   label: '包裹', status: 'wip' },
 ];
 
 const isCJK = s => /[㐀-鿿]/.test(s);
