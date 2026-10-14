@@ -39,6 +39,14 @@
   },
   "TOOLS": [
     {
+      "id": "erp-helper",
+      "title": "日躍ERP問題解決小幫手",
+      "div": "div7",
+      "glyph": "bubble_question",
+      "label": "ERP",
+      "status": "live"
+    },
+    {
       "id": "dolly-funds",
       "title": "Dolly助手｜資金分配",
       "div": "div3",

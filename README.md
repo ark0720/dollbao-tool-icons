@@ -24,6 +24,7 @@
 | counter-portal | 專櫃報表 Portal | Div2B | 報表 |
 | counter-ops | Div2B 專櫃櫃務小幫手 | Div2B | 櫃務 |
 | hpa-warroom | HPA 戰情中心 | Div7 | HPA |
+| erp-helper | 日躍ERP問題解決小幫手 | Div7 | ERP |
 | b2b-dealer | 逗寶 B2B 經銷商流程 | Div4 | B2B |
 | inventory | 庫存速查與員購小幫手 | Div4 | 庫存 |
 | inventory-report | Div4 庫存報表小幫手 | Div4 | 庫報 |

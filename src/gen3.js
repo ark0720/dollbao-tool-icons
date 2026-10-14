@@ -137,9 +137,15 @@ const GLYPH = {
     <path d="M-96,-56 a24,24 0 0 1 24,-24 h96 a24,24 0 0 1 24,24 v52 a24,24 0 0 1 -24,24 h-70 l-30,26 v-26 a24,24 0 0 1 -20,-24 z" fill="#fff" fill-opacity=".4"/>
     <path d="M-30,-6 a24,24 0 0 1 24,-24 h96 a24,24 0 0 1 24,24 v52 a24,24 0 0 1 -24,24 h-20 v26 l-30,-26 h-46 a24,24 0 0 1 -24,-24 z" ${S}/>
     <circle cx="10" cy="20" r="9" fill="${ac}"/><circle cx="42" cy="20" r="9" fill="${ac}"/><circle cx="74" cy="20" r="9" fill="${ac}"/>`,
+  bubble_question: (S, T, O, A, ac) => `
+    <path d="M-70,-80 h140 a36,36 0 0 1 36,36 v78 a36,36 0 0 1 -36,36 h-96 l-42,34 v-34 a36,36 0 0 1 -36,-36 v-78 a36,36 0 0 1 34,-36 z" ${T}/>
+    <path d="M-70,-80 h140 a36,36 0 0 1 36,36 v78 a36,36 0 0 1 -36,36 h-96 l-42,34 v-34 a36,36 0 0 1 -36,-36 v-78 a36,36 0 0 1 34,-36 z" stroke-width="13" ${O}/>
+    <path d="M-30,-34 a30,30 0 1 1 46,26 q-16,10 -16,28" fill="none" stroke-width="17" stroke-linecap="round" ${A}/>
+    <circle cx="0" cy="46" r="11" fill="${ac}"/>`,
 };
 
 const TOOLS = [
+  { id: 'erp-helper',      title: '日躍ERP問題解決小幫手',   div: 'div7',  glyph: 'bubble_question', label: 'ERP',  status: 'live' },
   { id: 'dolly-funds',     title: 'Dolly助手｜資金分配',   div: 'div3',  glyph: 'coin_split',      label: '資金', status: 'live' },
   { id: 'counter-portal',  title: '專櫃報表 Portal',        div: 'div2b', glyph: 'bars',            label: '報表', status: 'live' },
   { id: 'counter-ops',     title: 'Div2B 專櫃櫃務小幫手',   div: 'div2b', glyph: 'clipboard_check', label: '櫃務', status: 'live' },
